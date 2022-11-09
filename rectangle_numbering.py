@@ -59,16 +59,17 @@ for i in range(len(inner_lines_contour)):
 
 for i in range(len(inner_lines_contour)):
     if cv2.arcLength(inner_lines_contour[i], True) == 165.48022890090942:
-        cv2.putText(image, str(1),(400,300), cv2.FONT_HERSHEY_COMPLEX, 1.3, (0,200,0), 2)
+        cv2.putText(image, str(1),(500,500), cv2.FONT_HERSHEY_COMPLEX, 1.3, (0,200,0), 2)
     
     if cv2.arcLength(inner_lines_contour[i], True) == 171.39696860313416:
-        cv2.putText(image, str(2),(100,50), cv2.FONT_HERSHEY_COMPLEX, 1.3, (0,200,0), 2)
+        cv2.putText(image, str(2),(150,200), cv2.FONT_HERSHEY_COMPLEX, 1.3, (0,200,0), 2)
     
     if cv2.arcLength(inner_lines_contour[i], True) == 254.5096664428711:
-        cv2.putText(image, str(3), (400,50), cv2.FONT_HERSHEY_COMPLEX, 1.3, (0,200,0), 2)
+        cv2.putText(image, str(3), (500,200), cv2.FONT_HERSHEY_COMPLEX, 1.3, (0,200,0), 2)
     
     if cv2.arcLength(inner_lines_contour[i], True) == 338.6173119544983:
-        cv2.putText(image, str(4), (100,300), cv2.FONT_HERSHEY_COMPLEX, 1.3, (0,200,0), 2)
+        cv2.putText(image, str(4), (200,500), cv2.FONT_HERSHEY_COMPLEX, 1.3, (0,200,0), 2)
+
 
 
 
